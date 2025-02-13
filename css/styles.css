@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    color: gray;
+    width: 100%;
+    padding: 30px;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    font-size: small;
+}
+
+.quotation-button {
+    background-color: transparent;
+    font-size: small;
+    color: grey;
+    border-color: rgb(204, 201, 201);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+}
+
+.hero {
+    background-image: url(../img/img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.hero-overlay h1 {
+    font-size: 3.2rem;
+    color: white;
+    row-gap: 0px;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
+.hero-overlay button {
+    background-color: #3395ff;
+    padding: 7px 7px;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    margin-right: 20px;
+    border-radius: 2px;
+}
